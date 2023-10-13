@@ -264,6 +264,28 @@ header {
     }
 }
 
+#counter {
+    float: left;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to right, #99CCFF, #33CC99 );
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        h1 {
+            font-size: 36px;
+        }
+
+        > #timer {
+            font-size: 68px;
+            margin: 20px;
+        }
+    }
+}
+
 #services {
     > div {
         display: inline;
@@ -832,13 +854,24 @@ footer {
         }
 
         h2 {
-            font-size: 12px;
+            font-size: 14px;
         }
     }
 
     #about div > p, #services div > p, #konkurs div.konkurs-wrapper > p, #portfolio div > p, #sponsors div > p{
         font-size: 16px;
     }
+
+    #counter > div {
+        h1 {
+            font-size: 28px;
+        }
+
+        > p#timer {
+            font-size: 26px;
+        }
+    }
+    
 
     #sponsors div.sponsors-tiles {
         margin-left: 0;
