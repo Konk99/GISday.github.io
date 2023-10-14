@@ -357,7 +357,7 @@ header > div > p {
     background-repeat: no-repeat;
     background-position: 98% center;
     float: left;
-    width: 350px;
+    width: 500px;
     height: 80px;
     margin-right: 50px;
 }
@@ -393,7 +393,7 @@ header > div > p {
     */
    /* position: absolute;
     */
-    left: 85%;
+    left: 90%;
    /* margin-top: -2em;
     */
     list-style-type: none;
