@@ -425,6 +425,7 @@ header > div > p {
     border: none;
     max-width: 100%;
     vertical-align: middle;
+    width: 100%;
 }
 #sponsors > div {
     display: inline;
@@ -473,9 +474,11 @@ header > div > p {
     text-decoration: none;
     float: left;
     text-align: center;
+    width: 100%;
 }
 #sponsors div.sponsors-tiles img {
     z-index: -1;
+    max-height: 100%;
 }
 #sponsors div.sponsors-tiles h4 {
     padding: 10px;
